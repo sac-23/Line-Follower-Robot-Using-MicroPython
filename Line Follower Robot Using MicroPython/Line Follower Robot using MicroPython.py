@@ -6,7 +6,7 @@ rightIR_Sensor = Pin(34, Pin.IN)
 leftIR_Sensor = Pin(35, Pin.IN)
 
 # Motor speed (PWM duty cycle)
-MotorSpeed = 512  # PWM range in MicroPython is 0-1023
+MotorSpeed = 512  # PWM range in MicroPython is 0-1023[50%]
 
 # Right motor pins
 enableRightMotor = PWM(Pin(26))
